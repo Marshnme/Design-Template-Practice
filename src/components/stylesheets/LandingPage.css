@@ -3,9 +3,16 @@
   padding: 0;
 }
 
+.landing-header {
+  background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+}
+
+.creations {
+  width: 95vw;
+}
+
 @media only screen and (max-width: 600px) {
   .landing-header {
-    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -18,7 +25,6 @@
 }
 @media only screen and (min-width: 600px) {
   .landing-header {
-    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;

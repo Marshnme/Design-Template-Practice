@@ -1,14 +1,23 @@
 *{
     margin:0;
     padding:0;
+    // border:1px solid red;
+}
+
+.landing-header{
+    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
     
+}
+
+.creations{
+    width:95vw;
 }
 
 
 
 @media only screen and (max-width: 600px) {
     .landing-header{
-        background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+        
         background-repeat: no-repeat;
         // background-position: center;
         background-size: cover;
@@ -21,7 +30,7 @@
 }
 @media only screen and (min-width: 600px) {
     .landing-header{
-        background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+        
         background-repeat: no-repeat;
         // background-position: center;
         background-size: cover;
