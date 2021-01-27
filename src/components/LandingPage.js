@@ -20,20 +20,20 @@ const LandingPage = () =>{
     return(
         <body>
           <header className="landing-header">
-            <nav>
+            <nav className="nav">
               <div>
                 <h2>loopsudios</h2>
               </div>
               <div>
-                <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>location</li>
-              </ul>
+                <ul className="nav-list">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>location</li>
+                </ul>
               </div>
             </nav>
-            <div>
-              <h1>Immersive experiences that deliver</h1>
+            <div className="header-text-parent">
+              <h1 className="header-text">Immersive experiences that<br/> deliver</h1>
             </div>
           </header>
           <main>
