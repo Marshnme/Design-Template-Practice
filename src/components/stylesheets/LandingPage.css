@@ -3,9 +3,18 @@
   padding: 0;
 }
 
+.landing-header {
+  background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+}
+
+.creations {
+  width: 95vw;
+}
+
 @media only screen and (max-width: 600px) {
   .landing-header {
-    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+    display: flex;
+    flex-flow: row wrap;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -15,14 +24,34 @@
     width: 80vw;
     height: 30vh;
   }
-}
-@media only screen and (min-width: 600px) {
-  .landing-header {
-    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
+
+  .header-text-parent {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.89rem;
+    border: 1px solid white;
+    border-width: 4px;
+    margin: 0% 10% 0% 10%;
+    height: 35vh;
+  }
+
+  .header-text {
+    font-weight: 200;
+    margin: 0;
+    margin-left: 5%;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border: 1px solid green;
+    height: 10%;
+    min-width: 100%;
   }
 }
 
-/*# sourceMappingURL=LandingPage.css.map */
+/*# sourceMappingURL=landingPage.css.map */

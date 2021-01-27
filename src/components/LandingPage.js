@@ -20,20 +20,20 @@ const LandingPage = () =>{
     return(
         <body>
           <header className="landing-header">
-            <nav>
+            <nav className="nav">
               <div>
                 <h2>loopsudios</h2>
               </div>
               <div>
-                <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>location</li>
-              </ul>
+                <ul className="nav-list">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>location</li>
+                </ul>
               </div>
             </nav>
-            <div>
-              <h1>Immersive experiences that deliver</h1>
+            <div className="header-text-parent">
+              <h1 className="header-text">Immersive experiences that<br/> deliver</h1>
             </div>
           </header>
           <main>
@@ -44,14 +44,14 @@ const LandingPage = () =>{
             </div>
             <div>
               <h2>Our Creations</h2>
-              <img className="DeepEarth" src={DeepEarth} alt="Earth view from space"></img>
-              <img className="NightArcade" src={NightArcade} alt="Skeeball score rings"></img>
-              <img className="SoccerVR" src={SoccerVR} alt="Soccer player mid run"></img>
-              <img className="Racecar" src={Racecar} alt="Closeup of tire on race car"></img>
-              <img className="FromAbove" src={FromAbove} alt="Race track from top view"></img>
-              <img className="Borealis" src={Borealis} alt="Stars and Space"></img>
-              <img className="Curious" src={Curious} alt="Curiosity rover"></img>
-              <img className="Fisheye" src={Fisheye} alt="warped picture of nature"></img>
+              <img className="DeepEarth creations" src={DeepEarth} alt="Earth view from space"></img>
+              <img className="NightArcade creations" src={NightArcade} alt="Skeeball score rings"></img>
+              <img className="SoccerVR creations" src={SoccerVR} alt="Soccer player mid run"></img>
+              <img className="Racecar creations" src={Racecar} alt="Closeup of tire on race car"></img>
+              <img className="FromAbove creations" src={FromAbove} alt="Race track from top view"></img>
+              <img className="Borealis creations" src={Borealis} alt="Stars and Space"></img>
+              <img className="Curious creations"  src={Curious} alt="Curiosity rover"></img>
+              <img className="Fisheye creations" src={Fisheye} alt="warped picture of nature"></img>
               <button>SEE ALL</button>
             </div>
             <footer>
