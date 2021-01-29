@@ -37,12 +37,12 @@ const LandingPage = () =>{
             </div>
           </header>
           <main>
-            <div>
+            <div className="interactive-parent">
               <img className="interactive-img" src={Interactive} alt="Man in VR headset"></img>
-              <h2>The leader in interactive VR</h2>
+              <h2 className="interactive-header">The leader in interactive VR</h2>
               <p>Anim ea id irure cupidatat culpa veniam eiusmod duis tempor in aliquip eiusmod pariatur qui. Eu nostrud deserunt ex eiusmod aliqua anim minim sunt cillum exercitation in. Amet quis in eu pariatur esse sunt quis velit sint dolore laboris nisi nulla. Duis ea laborum magna officia. In nisi occaecat aute Lorem amet tempor irure pariatur reprehenderit laborum aliqua.</p>
             </div>
-            <div>
+            <div className="creations-parent">
               <h2>Our Creations</h2>
               <img className="DeepEarth creations" src={DeepEarth} alt="Earth view from space"></img>
               <img className="NightArcade creations" src={NightArcade} alt="Skeeball score rings"></img>
@@ -54,7 +54,7 @@ const LandingPage = () =>{
               <img className="Fisheye creations" src={Fisheye} alt="warped picture of nature"></img>
               <button>SEE ALL</button>
             </div>
-            <footer>
+            <footer className="footer-parent">
               <h3>Loopstudios</h3>
               <div>
                 <ul>
@@ -65,11 +65,13 @@ const LandingPage = () =>{
                   <li>Support</li>
                 </ul>
               </div>
-              
-                 <FBLogo/>
+              <div>
+                <FBLogo/>
                  <TwitterLogo/>
                  <PinterestLogo/>
                  <InstagramLogo/>
+              </div>
+                 
               
             </footer>
           </main>

@@ -7,10 +7,6 @@
   background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
 }
 
-.creations {
-  width: 95vw;
-}
-
 @media only screen and (max-width: 600px) {
   .landing-header {
     display: flex;
@@ -19,10 +15,13 @@
     background-size: cover;
     height: 100vh;
   }
-
-  .interactive-img {
-    width: 80vw;
-    height: 30vh;
+  .landing-header .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 1px solid green;
+    height: 10%;
+    min-width: 100%;
   }
 
   .header-text-parent {
@@ -35,8 +34,7 @@
     margin: 0% 10% 0% 10%;
     height: 35vh;
   }
-
-  .header-text {
+  .header-text-parent .header-text {
     font-weight: 200;
     margin: 0;
     margin-left: 5%;
@@ -44,14 +42,41 @@
     text-transform: uppercase;
   }
 
-  .nav {
+  .interactive-parent {
+    margin-top: 20%;
+    height: 70vh;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    border: 1px solid green;
-    height: 10%;
-    min-width: 100%;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .interactive-parent .interactive-img {
+    width: 85vw;
+    height: 30vh;
+  }
+  .interactive-parent .interactive-header {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .creations-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 175vh;
+  }
+  .creations-parent .creations {
+    width: 85vw;
+  }
+
+  .footer-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-/*# sourceMappingURL=landingPage.css.map */
+/*# sourceMappingURL=LandingPage.css.map */
