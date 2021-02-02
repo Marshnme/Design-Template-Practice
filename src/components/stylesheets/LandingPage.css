@@ -3,11 +3,11 @@
   padding: 0;
 }
 
-.landing-header {
-  background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
-}
-
 @media only screen and (max-width: 600px) {
+  .landing-header {
+    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+  }
+
   .landing-header {
     display: flex;
     flex-flow: row wrap;
@@ -70,12 +70,214 @@
   .creations-parent .creations {
     width: 85vw;
   }
+  .creations-parent .DeepEaarth {
+    background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
+  }
+  .creations-parent .NightArcade {
+    background-image: url(../../component-imgs/mobile-imgs/image-night-arcade.jpg);
+  }
+  .creations-parent .SoccerVR {
+    background-image: url(../../component-imgs/mobile-imgs/image-soccer-team.jpg);
+  }
+  .creations-parent .Racecar {
+    background-image: url(../../component-imgs/mobile-imgs/image-grid.jpg);
+  }
+  .creations-parent .FromAbove {
+    background-image: url(../../component-imgs/mobile-imgs/image-from-above.jpg);
+  }
+  .creations-parent .Borealis {
+    background-image: url(../../component-imgs/mobile-imgs/image-pocket-borealis.jpg);
+  }
+  .creations-parent .Curious {
+    background-image: url(../../component-imgs/mobile-imgs/image-curiosity.jpg);
+  }
+  .creations-parent .Fisheye {
+    background-image: url(../../component-imgs/mobile-imgs/image-fisheye.jpg);
+  }
 
   .footer-parent {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    background: black;
+    color: white;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .landing-header {
+    background-image: url(../../component-imgs/mobile-imgs/image-hero.jpg);
+  }
+
+  .landing-header {
+    display: flex;
+    flex-flow: row wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .landing-header .nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    border: 1px solid green;
+    height: 10%;
+    min-width: 100%;
+  }
+
+  .header-text-parent {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    font-size: 1.89rem;
+    border: 1px solid white;
+    border-width: 4px;
+    margin: 0% 10% 0% 10%;
+    height: 35vh;
+  }
+  .header-text-parent .header-text {
+    font-weight: 200;
+    margin: 0;
+    margin-left: 5%;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .interactive-parent {
+    margin-top: 20%;
+    height: 70vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .interactive-parent .interactive-img {
+    width: 85vw;
+    height: 30vh;
+  }
+  .interactive-parent .interactive-header {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 100;
+  }
+
+  .creations-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 175vh;
+  }
+  .creations-parent .creations {
+    width: 85vw;
+  }
+  .creations-parent .DeepEaarth {
+    background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
+  }
+  .creations-parent .NightArcade {
+    background-image: url(../../component-imgs/mobile-imgs/image-night-arcade.jpg);
+  }
+  .creations-parent .SoccerVR {
+    background-image: url(../../component-imgs/mobile-imgs/image-soccer-team.jpg);
+  }
+  .creations-parent .Racecar {
+    background-image: url(../../component-imgs/mobile-imgs/image-grid.jpg);
+  }
+  .creations-parent .FromAbove {
+    background-image: url(../../component-imgs/mobile-imgs/image-from-above.jpg);
+  }
+  .creations-parent .Borealis {
+    background-image: url(../../component-imgs/mobile-imgs/image-pocket-borealis.jpg);
+  }
+  .creations-parent .Curious {
+    background-image: url(../../component-imgs/mobile-imgs/image-curiosity.jpg);
+  }
+  .creations-parent .Fisheye {
+    background-image: url(../../component-imgs/mobile-imgs/image-fisheye.jpg);
+  }
+
+  .footer-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .landing-header {
+    background-image: url(../../component-imgs/desktop-imgs/image-hero.jpg);
+  }
+
+  .landing-header {
+    display: flex;
+    flex-flow: row wrap;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+  }
+
+  .header-text-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-self: center;
+    font-size: 2rem;
+    border: 1px solid white;
+    border-width: 4px;
+    margin: 0% 10% 0% 10%;
+    width: 50%;
+    height: 50%;
+  }
+  .header-text-parent .header-text {
+    font-weight: 400;
+  }
+
+  .interactive-parent {
+    margin-top: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .interactive-parent .interactive-img {
+    width: 50vw;
+    height: 60vh;
+  }
+
+  .creations-parent {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .creations-parent .creations {
+    width: 70vw;
+  }
+  .creations-parent .DeepEarth {
+    background-image: url(../../component-imgs/desktop-imgs/image-deep-earth.jpg);
+  }
+  .creations-parent .NightArcade {
+    background-image: url(../../component-imgs/desktop-imgs/image-night-arcade.jpg);
+  }
+  .creations-parent .SoccerVR {
+    background-image: url(../../component-imgs/desktop-imgs/image-soccer-team.jpg);
+  }
+  .creations-parent .Racecar {
+    background-image: url(../../component-imgs/desktop-imgs/image-grid.jpg);
+  }
+  .creations-parent .FromAbove {
+    background-image: url(../../component-imgs/desktop-imgs/image-from-above.jpg);
+  }
+  .creations-parent .Borealis {
+    background-image: url(../../component-imgs/desktop-imgs/image-pocket-borealis.jpg);
+  }
+  .creations-parent .Curious {
+    background-image: url(../../component-imgs/desktop-imgs/image-curiosity.jpg);
+  }
+  .creations-parent .Fisheye {
+    background-image: url(../../component-imgs/desktop-imgs/image-fisheye.jpg);
   }
 }
 
