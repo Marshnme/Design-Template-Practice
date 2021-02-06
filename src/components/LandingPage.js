@@ -54,11 +54,11 @@ const LandingPage = () =>{
               </div>
             </div>
             <div className="creations-parent">
-              <div>
+              <div className="creations-title-parent">
                 <h2>Our Creations</h2>
                 <button>SEE ALL</button>
               </div>
-              <div>
+              <div className="creations-imgs-parent">
                 <div className="DeepEarth creations"  alt="Earth view from space"></div>
                 <div className="NightArcade creations"  alt="Skeeball score rings"></div>
                 <div className="SoccerVR creations"  alt="Soccer player mid run"></div>
@@ -68,8 +68,10 @@ const LandingPage = () =>{
                 <div className="Curious creations"  alt="Curiosity rover"></div>
                 <div className="Fisheye creations"  alt="warped picture of nature"></div>
               </div>
+              <div className="creations-button-parent">
+                <button>SEE ALL</button>
+              </div>
               
-              <button>SEE ALL</button>
             </div>
             <footer className="footer-parent">
               <h3>Loopstudios</h3>
