@@ -54,15 +54,21 @@ const LandingPage = () =>{
               </div>
             </div>
             <div className="creations-parent">
-              <h2>Our Creations</h2>
-              <div className="DeepEarth creations"  alt="Earth view from space"></div>
-              <div className="NightArcade creations"  alt="Skeeball score rings"></div>
-              <div className="SoccerVR creations"  alt="Soccer player mid run"></div>
-              <div className="Racecar creations"  alt="Closeup of tire on race car"></div>
-              <div className="FromAbove creations"  alt="Race track from top view"></div>
-              <div className="Borealis creations"  alt="Stars and Space"></div>
-              <div className="Curious creations"  alt="Curiosity rover"></div>
-              <div className="Fisheye creations"  alt="warped picture of nature"></div>
+              <div>
+                <h2>Our Creations</h2>
+                <button>SEE ALL</button>
+              </div>
+              <div>
+                <div className="DeepEarth creations"  alt="Earth view from space"></div>
+                <div className="NightArcade creations"  alt="Skeeball score rings"></div>
+                <div className="SoccerVR creations"  alt="Soccer player mid run"></div>
+                <div className="Racecar creations"  alt="Closeup of tire on race car"></div>
+                <div className="FromAbove creations"  alt="Race track from top view"></div>
+                <div className="Borealis creations"  alt="Stars and Space"></div>
+                <div className="Curious creations"  alt="Curiosity rover"></div>
+                <div className="Fisheye creations"  alt="warped picture of nature"></div>
+              </div>
+              
               <button>SEE ALL</button>
             </div>
             <footer className="footer-parent">

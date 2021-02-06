@@ -8,7 +8,7 @@
 
 
 
-
+// MOBILE
 
 @media only screen and (max-width: 600px) {
     .landing-header{
@@ -80,10 +80,12 @@
         align-items: center;
         justify-content: space-around;
         height:175vh;
+        // width:100vw;
         .creations{
-            width:85vw;
+            min-width:85vw;
+            min-height:20vh;
         }
-        .DeepEaarth{
+        .DeepEarth{
             background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
         }
         .NightArcade{
@@ -190,7 +192,9 @@
         justify-content: space-around;
         height:175vh;
         .creations{
-            width:85vw;
+            min-width:85vw;
+            min-height:20vh;
+            background-repeat: no-repeat;
         }
         .DeepEaarth{
             background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
@@ -228,6 +232,9 @@
         color:white;
     }
 }
+
+
+// TABLET/DESKTOP
 
 @media only screen and (min-width: 900px) {
     .landing-header{
@@ -278,13 +285,16 @@
         display:flex;
         flex-flow: row wrap;
         align-items: center;
-        // justify-content: space-around;
-        // height:175vh;
+        justify-content: space-around;
+        height:175vh;
         .creations{
-            width:70vw;
+            display:inline-block;
+            min-width:30vw;
+            min-height: 40vh;
         }
         .DeepEarth{
             background-image: url(../../component-imgs/desktop-imgs/image-deep-earth.jpg);
+            min-width:30%;
         }
         .NightArcade{
             background-image: url(../../component-imgs/desktop-imgs/image-night-arcade.jpg);

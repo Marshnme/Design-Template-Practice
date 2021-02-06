@@ -68,9 +68,10 @@
     height: 175vh;
   }
   .creations-parent .creations {
-    width: 85vw;
+    min-width: 85vw;
+    min-height: 20vh;
   }
-  .creations-parent .DeepEaarth {
+  .creations-parent .DeepEarth {
     background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
   }
   .creations-parent .NightArcade {
@@ -169,7 +170,9 @@
     height: 175vh;
   }
   .creations-parent .creations {
-    width: 85vw;
+    min-width: 85vw;
+    min-height: 20vh;
+    background-repeat: no-repeat;
   }
   .creations-parent .DeepEaarth {
     background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
@@ -251,12 +254,17 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: space-around;
+    height: 175vh;
   }
   .creations-parent .creations {
-    width: 70vw;
+    display: inline-block;
+    min-width: 30vw;
+    min-height: 40vh;
   }
   .creations-parent .DeepEarth {
     background-image: url(../../component-imgs/desktop-imgs/image-deep-earth.jpg);
+    min-width: 30%;
   }
   .creations-parent .NightArcade {
     background-image: url(../../component-imgs/desktop-imgs/image-night-arcade.jpg);
