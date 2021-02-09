@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  border: 1px solid red;
 }
 
 @media only screen and (max-width: 600px) {
@@ -68,31 +69,8 @@
     height: 175vh;
   }
   .creations-parent .creations {
-    width: 85vw;
-  }
-  .creations-parent .DeepEaarth {
-    background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
-  }
-  .creations-parent .NightArcade {
-    background-image: url(../../component-imgs/mobile-imgs/image-night-arcade.jpg);
-  }
-  .creations-parent .SoccerVR {
-    background-image: url(../../component-imgs/mobile-imgs/image-soccer-team.jpg);
-  }
-  .creations-parent .Racecar {
-    background-image: url(../../component-imgs/mobile-imgs/image-grid.jpg);
-  }
-  .creations-parent .FromAbove {
-    background-image: url(../../component-imgs/mobile-imgs/image-from-above.jpg);
-  }
-  .creations-parent .Borealis {
-    background-image: url(../../component-imgs/mobile-imgs/image-pocket-borealis.jpg);
-  }
-  .creations-parent .Curious {
-    background-image: url(../../component-imgs/mobile-imgs/image-curiosity.jpg);
-  }
-  .creations-parent .Fisheye {
-    background-image: url(../../component-imgs/mobile-imgs/image-fisheye.jpg);
+    min-width: 85vw;
+    min-height: 20vh;
   }
 
   .footer-parent {
@@ -169,31 +147,9 @@
     height: 175vh;
   }
   .creations-parent .creations {
-    width: 85vw;
-  }
-  .creations-parent .DeepEaarth {
-    background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
-  }
-  .creations-parent .NightArcade {
-    background-image: url(../../component-imgs/mobile-imgs/image-night-arcade.jpg);
-  }
-  .creations-parent .SoccerVR {
-    background-image: url(../../component-imgs/mobile-imgs/image-soccer-team.jpg);
-  }
-  .creations-parent .Racecar {
-    background-image: url(../../component-imgs/mobile-imgs/image-grid.jpg);
-  }
-  .creations-parent .FromAbove {
-    background-image: url(../../component-imgs/mobile-imgs/image-from-above.jpg);
-  }
-  .creations-parent .Borealis {
-    background-image: url(../../component-imgs/mobile-imgs/image-pocket-borealis.jpg);
-  }
-  .creations-parent .Curious {
-    background-image: url(../../component-imgs/mobile-imgs/image-curiosity.jpg);
-  }
-  .creations-parent .Fisheye {
-    background-image: url(../../component-imgs/mobile-imgs/image-fisheye.jpg);
+    min-width: 85vw;
+    min-height: 20vh;
+    background-repeat: no-repeat;
   }
 
   .footer-parent {
@@ -251,33 +207,28 @@
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    justify-content: center;
+    height: 175vh;
+  }
+  .creations-parent .creations-title-parent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  .creations-parent .creations-imgs-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 80vw;
   }
   .creations-parent .creations {
-    width: 70vw;
+    min-width: 40vw;
+    min-height: 50vh;
   }
-  .creations-parent .DeepEarth {
-    background-image: url(../../component-imgs/desktop-imgs/image-deep-earth.jpg);
-  }
-  .creations-parent .NightArcade {
-    background-image: url(../../component-imgs/desktop-imgs/image-night-arcade.jpg);
-  }
-  .creations-parent .SoccerVR {
-    background-image: url(../../component-imgs/desktop-imgs/image-soccer-team.jpg);
-  }
-  .creations-parent .Racecar {
-    background-image: url(../../component-imgs/desktop-imgs/image-grid.jpg);
-  }
-  .creations-parent .FromAbove {
-    background-image: url(../../component-imgs/desktop-imgs/image-from-above.jpg);
-  }
-  .creations-parent .Borealis {
-    background-image: url(../../component-imgs/desktop-imgs/image-pocket-borealis.jpg);
-  }
-  .creations-parent .Curious {
-    background-image: url(../../component-imgs/desktop-imgs/image-curiosity.jpg);
-  }
-  .creations-parent .Fisheye {
-    background-image: url(../../component-imgs/desktop-imgs/image-fisheye.jpg);
+
+  .creations-button-parent {
+    width: 100vw;
   }
 }
 

@@ -54,16 +54,40 @@ const LandingPage = () =>{
               </div>
             </div>
             <div className="creations-parent">
-              <h2>Our Creations</h2>
-              <div className="DeepEarth creations"  alt="Earth view from space"></div>
-              <div className="NightArcade creations"  alt="Skeeball score rings"></div>
-              <div className="SoccerVR creations"  alt="Soccer player mid run"></div>
-              <div className="Racecar creations"  alt="Closeup of tire on race car"></div>
-              <div className="FromAbove creations"  alt="Race track from top view"></div>
-              <div className="Borealis creations"  alt="Stars and Space"></div>
-              <div className="Curious creations"  alt="Curiosity rover"></div>
-              <div className="Fisheye creations"  alt="warped picture of nature"></div>
-              <button>SEE ALL</button>
+              <div className="creations-title-parent">
+                <h2>Our Creations</h2>
+                <button>SEE ALL</button>
+              </div>
+              <div className="creations-imgs-parent">
+                <div className="DeepEarth creations"  alt="Earth view from space">
+                  <img src={DeepEarth} alt=""></img>
+                </div>
+                <div className="NightArcade creations"  alt="Skeeball score rings">
+                  <img src={NightArcade} alt=""></img>
+                </div>
+                <div className="SoccerVR creations"  alt="Soccer player mid run">
+                  <img src={SoccerVR} alt=""></img>
+                </div>
+                <div className="Racecar creations"  alt="Closeup of tire on race car">
+                  <img src={Racecar} alt=""></img>
+                </div>
+                <div className="FromAbove creations"  alt="Race track from top view">
+                  <img src={FromAbove} alt=""></img>
+                </div>
+                <div className="Borealis creations"  alt="Stars and Space">
+                  <img src={Borealis} alt=""></img>
+                </div>
+                <div className="Curious creations"  alt="Curiosity rover">
+                  <img src={Curious} alt=""></img>
+                </div>
+                <div className="Fisheye creations"  alt="warped picture of nature">
+                  <img src={Fisheye} alt=""></img>
+                </div>
+              </div>
+              <div className="creations-button-parent">
+                <button>SEE ALL</button>
+              </div>
+              
             </div>
             <footer className="footer-parent">
               <h3>Loopstudios</h3>
