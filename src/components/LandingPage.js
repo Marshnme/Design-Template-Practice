@@ -48,7 +48,7 @@ const LandingPage = () =>{
           <main>
             <div className="interactive-parent">
               <img className="interactive-img" src={Interactive} alt="Man in VR headset"></img>
-              <div>
+              <div className="interactive-header-parent">
                 <h2 className="interactive-header">The leader in interactive VR</h2>
                 <p>Anim ea id irure cupidatat culpa veniam eiusmod duis tempor in aliquip eiusmod pariatur qui. Eu nostrud deserunt ex eiusmod aliqua anim minim sunt cillum exercitation in. Amet quis in eu pariatur esse sunt quis velit sint dolore laboris nisi nulla. Duis ea laborum magna officia. In nisi occaecat aute Lorem amet tempor irure pariatur reprehenderit laborum aliqua.</p>
               </div>
@@ -59,29 +59,29 @@ const LandingPage = () =>{
                 <button>SEE ALL</button>
               </div>
               <div className="creations-imgs-parent">
-                <div className="DeepEarth creations"  alt="Earth view from space">
-                  <img src={DeepEarth} alt=""></img>
+                <div className="DeepEarth"  alt="Earth view from space">
+                  <img src={DeepEarth} alt="" className="creations"></img>
                 </div>
-                <div className="NightArcade creations"  alt="Skeeball score rings">
-                  <img src={NightArcade} alt=""></img>
+                <div className="NightArcade"  alt="Skeeball score rings">
+                  <img src={NightArcade} alt="" className="creations"></img>
                 </div>
-                <div className="SoccerVR creations"  alt="Soccer player mid run">
-                  <img src={SoccerVR} alt=""></img>
+                <div className="SoccerVR"  alt="Soccer player mid run">
+                  <img src={SoccerVR} alt="" className="creations"></img>
                 </div>
-                <div className="Racecar creations"  alt="Closeup of tire on race car">
-                  <img src={Racecar} alt=""></img>
+                <div className="Racecar"  alt="Closeup of tire on race car">
+                  <img src={Racecar} alt="" className="creations"></img>
                 </div>
-                <div className="FromAbove creations"  alt="Race track from top view">
-                  <img src={FromAbove} alt=""></img>
+                <div className="FromAbove"  alt="Race track from top view">
+                  <img src={FromAbove} alt="" className="creations"></img>
                 </div>
-                <div className="Borealis creations"  alt="Stars and Space">
-                  <img src={Borealis} alt=""></img>
+                <div className="Borealis"  alt="Stars and Space">
+                  <img src={Borealis} alt="" className="creations"></img>
                 </div>
-                <div className="Curious creations"  alt="Curiosity rover">
-                  <img src={Curious} alt=""></img>
+                <div className="Curious"  alt="Curiosity rover">
+                  <img src={Curious} alt="" className="creations"></img>
                 </div>
-                <div className="Fisheye creations"  alt="warped picture of nature">
-                  <img src={Fisheye} alt=""></img>
+                <div className="Fisheye"  alt="warped picture of nature">
+                  <img src={Fisheye} alt="" className="creations"></img>
                 </div>
               </div>
               <div className="creations-button-parent">

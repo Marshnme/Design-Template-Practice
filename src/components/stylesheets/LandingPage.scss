@@ -79,11 +79,17 @@
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-around;
-        height:175vh;
+        // height:175vh;
         // width:100vw;
+        .creations-imgs-parent{
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            width:80vw;
+        }
         .creations{
-            min-width:85vw;
-            min-height:20vh;
+            width:90vw;
+            height:20vh;
         }
         // .DeepEarth{
         //     background-image: url(../../component-imgs/mobile-imgs/image-deep-earth.jpg);
@@ -190,10 +196,10 @@
         flex-flow: column nowrap;
         align-items: center;
         justify-content: space-around;
-        height:175vh;
+        // height:175vh;
         .creations{
-            min-width:85vw;
-            min-height:20vh;
+            width:85vw;
+            height:25vh;
             background-repeat: no-repeat;
         }
         // .DeepEaarth{
@@ -273,9 +279,13 @@
         display:flex;
         flex-flow: row nowrap;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
+        max-width:100vw;
+        .interactive-header-parent{
+            width:40vw;
+        }
         .interactive-img{
-        width:50vw;
+        width:40vw;
         height:60vh;
     }
     }
@@ -286,7 +296,7 @@
         flex-flow: row wrap;
         align-items: center;
         justify-content: center;
-        height:175vh;
+        // height:175vh;
         .creations-title-parent{
             display:flex;
             flex-flow: row nowrap;
@@ -298,13 +308,13 @@
         .creations-imgs-parent{
             display:flex;
             flex-flow: row wrap;
-            justify-content: space-around;
+            // justify-content: space-around;
             width:80vw;
         }
         .creations{
             // display:inline-block;
-            min-width:40vw;
-            min-height: 50vh;
+            width:20vw;
+            height: 60vh;
         }
         // .DeepEarth{
         //     background-image: url(../../component-imgs/desktop-imgs/image-deep-earth.jpg);
@@ -334,6 +344,15 @@
     }
     .creations-button-parent{
         width:100vw;
+    }
+
+    .footer-parent{
+        display:flex;
+        flex-flow:row nowrap;
+        justify-content: center;
+        align-items: center;
+        background: black;
+        color:white;
     }
 
     }
