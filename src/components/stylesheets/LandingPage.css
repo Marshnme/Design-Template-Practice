@@ -1,7 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+}
+
+body {
+  height: 100vh;
 }
 
 @media only screen and (max-width: 600px) {
@@ -24,11 +27,18 @@
     height: 10%;
     min-width: 100%;
   }
+  .landing-header .nav .nav-list {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    list-style-type: none;
+  }
 
   .header-text-parent {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
-    align-self: center;
+    align-self: flex-start;
     font-size: 1.89rem;
     border: 1px solid white;
     border-width: 4px;
@@ -56,9 +66,10 @@
     height: 30vh;
   }
   .interactive-parent .interactive-header {
-    font-size: 4rem;
+    font-size: 3rem;
     text-align: center;
     font-weight: 100;
+    text-transform: uppercase;
   }
 
   .creations-parent {
@@ -73,9 +84,22 @@
     justify-content: space-around;
     width: 80vw;
   }
+  .creations-parent .creations-title-parent .creations-title {
+    margin-bottom: 15%;
+    font-size: 3rem;
+  }
+  .creations-parent .creations-title-parent .desktop-button {
+    display: none;
+  }
   .creations-parent .creations {
     width: 90vw;
     height: 20vh;
+    margin: 3% 0% 3% 0%;
+  }
+
+  .mobile-button {
+    margin-top: 5vh;
+    margin-bottom: 20vh;
   }
 
   .footer-parent {
@@ -85,6 +109,7 @@
     align-items: center;
     background: black;
     color: white;
+    height: 60vh;
   }
 }
 @media only screen and (min-width: 600px) {

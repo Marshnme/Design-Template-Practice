@@ -55,8 +55,8 @@ const LandingPage = () =>{
             </div>
             <div className="creations-parent">
               <div className="creations-title-parent">
-                <h2>Our Creations</h2>
-                <button>SEE ALL</button>
+                <h2 className="creations-title">Our Creations</h2>
+                <button className="desktop-button">SEE ALL</button>
               </div>
               <div className="creations-imgs-parent">
                 <div className="DeepEarth"  alt="Earth view from space">
@@ -85,7 +85,7 @@ const LandingPage = () =>{
                 </div>
               </div>
               <div className="creations-button-parent">
-                <button>SEE ALL</button>
+                <button className="mobile-button">SEE ALL</button>
               </div>
               
             </div>
