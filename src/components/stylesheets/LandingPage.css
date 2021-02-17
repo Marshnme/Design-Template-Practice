@@ -27,11 +27,16 @@ body {
     height: 10%;
     min-width: 100%;
   }
+  .landing-header .nav .navBarCompName {
+    font-size: 2.5rem;
+    color: white;
+  }
   .landing-header .nav .nav-list {
     display: flex;
     width: 50vw;
     justify-content: space-around;
     list-style-type: none;
+    color: white;
   }
 
   .header-text-parent {
@@ -42,13 +47,15 @@ body {
     font-size: 1.89rem;
     border: 1px solid white;
     border-width: 4px;
-    margin: 0% 10% 0% 10%;
+    margin: 0% 5% 0% 5%;
     height: 35vh;
   }
   .header-text-parent .header-text {
+    word-spacing: 80vw;
+    margin-top: 5%;
     font-weight: 200;
-    margin: 0;
     margin-left: 5%;
+    margin-right: 5%;
     color: white;
     text-transform: uppercase;
   }
@@ -65,11 +72,22 @@ body {
     width: 85vw;
     height: 30vh;
   }
-  .interactive-parent .interactive-header {
+  .interactive-parent .interactive-header-parent {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-self: center;
+  }
+  .interactive-parent .interactive-header-parent .interactive-header {
     font-size: 3rem;
     text-align: center;
     font-weight: 100;
     text-transform: uppercase;
+    width: 80vw;
+  }
+  .interactive-parent .interactive-header-parent .interactive-content {
+    text-align: center;
+    width: 80vw;
   }
 
   .creations-parent {
@@ -99,7 +117,7 @@ body {
 
   .mobile-button {
     margin-top: 5vh;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
   }
 
   .footer-parent {

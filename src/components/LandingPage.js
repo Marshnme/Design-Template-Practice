@@ -31,7 +31,7 @@ const LandingPage = () =>{
           <header className="landing-header">
             <nav className="nav">
               <div>
-                <h2>loopsudios</h2>
+                <h2 className="navBarCompName">loopsudios</h2>
               </div>
               <div>
                 <ul className="nav-list">
@@ -50,7 +50,7 @@ const LandingPage = () =>{
               <img className="interactive-img" src={Interactive} alt="Man in VR headset"></img>
               <div className="interactive-header-parent">
                 <h2 className="interactive-header">The leader in interactive VR</h2>
-                <p>Anim ea id irure cupidatat culpa veniam eiusmod duis tempor in aliquip eiusmod pariatur qui. Eu nostrud deserunt ex eiusmod aliqua anim minim sunt cillum exercitation in. Amet quis in eu pariatur esse sunt quis velit sint dolore laboris nisi nulla. Duis ea laborum magna officia. In nisi occaecat aute Lorem amet tempor irure pariatur reprehenderit laborum aliqua.</p>
+                <p className = "interactive-content">Anim ea id irure cupidatat culpa veniam eiusmod duis tempor in aliquip eiusmod pariatur qui. Eu nostrud deserunt ex eiusmod aliqua anim minim sunt cillum exercitation in. Amet quis in eu pariatur esse sunt quis velit sint dolore laboris nisi nulla. Duis ea laborum magna officia. In nisi occaecat aute Lorem amet tempor irure pariatur reprehenderit laborum aliqua.</p>
               </div>
             </div>
             <div className="creations-parent">
