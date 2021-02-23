@@ -118,6 +118,12 @@ body {
   .mobile-button {
     margin-top: 5vh;
     margin-bottom: 15vh;
+    border: 2px solid black;
+    background-color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 30vw;
+    text-align: center;
   }
 
   .footer-parent {
